@@ -12,5 +12,6 @@ cd ..
 
 # Build backend
 cd backend
+rm -rf ./public
 mv ../frontend/dist/ ./public/
 cargo r
